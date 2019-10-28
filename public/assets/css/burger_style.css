@@ -6,8 +6,9 @@ body {
 
 #main-img {
     background-image: url("../img/2.png");
-    height: 200px;
-    background-repeat: no-repeat;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-left: 400px;
 }
 
 .main-style {
@@ -16,8 +17,9 @@ body {
 }
 
 #app-title {
-    color: white;
-    font-weight: bold;
+	font-family: 'Staatliches', cursive;
+	font-size: 80px;
+	color: white;
 }
 
 h1 {
