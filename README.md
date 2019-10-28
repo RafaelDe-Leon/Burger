@@ -2,16 +2,17 @@
 <p>A full stack application that allows you to create a Burger and devour it and throw it away, using Routes and MySql to update the database</p>
 <img src="./public/assets/img/Example1.jpg">
 
-## <a name="live"></a>Live
+## Live
+https://rafael-burger-12345.herokuapp.com/
 
-## <a name="about-this-project"></a> About this project
+## About this project
 
   * [How the app works](#how-app-works)
  
-### <a name="how-app-works"></a> How the app works
+### How the app works
 This project is a full stack application that allows you to place an order for a burger. When you place an order, the burger you enter in the form field is added to the list of burgers on the left side of the screen. Each burger in the list has a <b>Devour me</b> button. Clicking this button moves the burger from the list on the left side of the screen to the list on the right. The list on the right is a list of burgers that have already been devoured. Each burger in this list has a <b>Throw away</b> button that allows you to remove the burger, which deletes the burger from the user interface as well as from the MySQL database. 
 
-## <a name="getting-started"></a> Getting started
+## Getting started
 The following section will take you through the steps of setting up this application and getting it running locally on your computer.
 
 If you don't want to set up this project locally and just want to see the deployed application, go to  .
@@ -26,14 +27,14 @@ To set up this application locally on your computer, perform the following steps
   7. [Verify database connection information](#db-connect)
   8. [Start the server](#start-server)
 
-### <a name="clone-repository"></a> 1. Clone the repository
+### 1. Clone the repository
 The first step is to clone the project repository to a local directory on your computer. To clone the repository, run the following commands:
 <pre>
   git clone https://github.com/RafaelDe-Leon/Burger.git
   cd burger
 </pre>
 
-#### <a name="structure-of-project"></a> Structure of the project
+####Structure of the project
 <p>After you clone the repository, navigate to the project root directory (burger). The project directory structure is set up as follows:</p>
 <ul>
   <li> 
@@ -83,10 +84,10 @@ The first step is to clone the project repository to a local directory on your c
   <li><b>package-lock.json</b>: Dependency tree for the project. Lists all the dependencies and their versions.</li>
 </ul>
 
-### <a name="install-node"></a> 2. Install Node.js
+### 2. Install Node.js
 <p>If you don't already have Node.js installed on your computer, you can install the latest version here: https://nodejs.org/en/.</p>
 
-### <a name="dependencies"></a> 3. Install the dependencies
+### 3. Install the dependencies
 <p>The following npm packages are dependencies to the project.</p>
 <p>After you clone the repository to a local directory, change directory to the project root directory and run the following command to install the required npm packages:</p>
 <pre>npm install</pre>
@@ -101,7 +102,7 @@ The first step is to clone the project repository to a local directory on your c
 <p>Version information for each of these packages is available in the <b>package.json</b> file in the project root directory.</p>
 
 
-### <a name="create-env">6. Create a .env file to store your MySQL Password</a>
+### 6. Create a .env file to store your MySQL Password</a>
 <p>If you set up MySQL to use a password to connect to your database, you need to provide your own <b>.env</b> file.
 If you did not set up MySQL with a password, you can skip this step.</p>
 
@@ -115,7 +116,7 @@ MYSQL_PASSWORD='<i>mysql_password</i>'
 
 <p>This file will be used by the dotenv npm package, which will pass the password value as an environment variable to the global process.env object in node. Because <b>.env</b> is specified in the .gitignore file, the password is kept private.</p>
 
-### <a name="db-connect">7. Verify database connection information</a>
+### 7. Verify database connection information</a>
 <p>Open the <b>config/connection.js</b> file and verify that the database connection information (host, user, port, password, and database) reflects the database you just created.</p>
 <p>Modify the connection properties as needed to reflect your database instance.</p>
 <p>For example:</p>
@@ -129,14 +130,14 @@ MYSQL_PASSWORD='<i>mysql_password</i>'
   });
 </pre>
 
-### <a name="start-server">8. Start the server</a>
+### 8. Start the server</a>
 <p>After performing all of the setup steps in the <b>Getting started</b> section, navigate to the project root directory (burger) and run the following command to start the server:</p>
 <pre>
 node server.js
 </pre>
 <p>To verify that the server has started and the application is working locally on your computer, open Chrome and go to <a href="http://localhost:8080">http://localhost:8080</a>.</p>
 
-## <a name="screenshots"></a> Screenshots
+## Screenshots
 
 ### Welcome to Awesome Burger
 <img src="./public/assets/img/Example1.jpg">
@@ -146,18 +147,18 @@ node server.js
 ### Devoured burgers
 <img src="./public/assets/img/Example2.jpg">
 
-## <a name="technologies-used"></a> Technologies used to build app
+## </a> Technologies used to build app
 * [Backend technologies](#Backend)
 * [Frontend technologies](#Frontend)
 
-### <a name ="Backend"></a> Backend technologies
+### Backend technologies
 * Node.js (https://nodejs.org/en/)
 * MySQL (https://www.mysql.com/)
 * Express (http://expressjs.com/)
 * ORM - Object Relational Mapping (https://en.wikipedia.org/wiki/Object-relational_mapping)
 
 
-### <a name="Frontend"></a> Frontend technologies
+### Frontend technologies
 * HTML
 * CSS
 * Bootstrap (http://getbootstrap.com/)
@@ -166,6 +167,6 @@ node server.js
 * Handlebars (http://handlebarsjs.com/)
 
 
-## <a name="Acknowledgments"></a> Acknowledgments 
+## Acknowledgments 
 * Photo by James Sutton on <a href="https://www.unsplash.com">Unsplash.com</a>
 * <a href="https://fontawesome.com/icons?d=gallery">Font Awesome</a> for Throw away burger/trash can icon.
