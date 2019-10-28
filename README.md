@@ -139,10 +139,8 @@ node server.js
 
 ## Screenshots
 
-### Welcome to Awesome Burger
+### Welcome to Burger Central 
 <img src="./public/assets/img/Example1.jpg">
-<br>
-<br>
 
 ### Devoured burgers
 <img src="./public/assets/img/Example2.jpg">
