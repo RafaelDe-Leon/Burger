@@ -1,15 +1,13 @@
-# Burger# Awesome Burger
+# Burger# Burger Central
 <p>A full stack application that allows you to create a Burger and devour it and throw it away, using Routes and MySql to update the database</p>
 <img src="./public/assets/img/Example1.jpg">
 
 ## <a name="live"></a>Live
-https://gentle-caverns-56054.herokuapp.com/
 
 ## <a name="about-this-project"></a> About this project
 
   * [How the app works](#how-app-works)
   * [How the app is built](#how-the-app-is-built)
-  * [MVC design pattern](#about-mvc)
  
 ### <a name="how-app-works"></a> How the app works
 This project is a full stack application that allows you to place an order for a burger. When you place an order, the burger you enter in the form field is added to the list of burgers on the left side of the screen. Each burger in the list has a <b>Devour me</b> button. Clicking this button moves the burger from the list on the left side of the screen to the list on the right. The list on the right is a list of burgers that have already been devoured. Each burger in this list has a <b>Throw away</b> button that allows you to remove the burger, which deletes the burger from the user interface as well as from the MySQL database. 
