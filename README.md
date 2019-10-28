@@ -7,7 +7,6 @@
 ## <a name="about-this-project"></a> About this project
 
   * [How the app works](#how-app-works)
-  * [How the app is built](#how-the-app-is-built)
  
 ### <a name="how-app-works"></a> How the app works
 This project is a full stack application that allows you to place an order for a burger. When you place an order, the burger you enter in the form field is added to the list of burgers on the left side of the screen. Each burger in the list has a <b>Devour me</b> button. Clicking this button moves the burger from the list on the left side of the screen to the list on the right. The list on the right is a list of burgers that have already been devoured. Each burger in this list has a <b>Throw away</b> button that allows you to remove the burger, which deletes the burger from the user interface as well as from the MySQL database. 
@@ -30,7 +29,7 @@ To set up this application locally on your computer, perform the following steps
 ### <a name="clone-repository"></a> 1. Clone the repository
 The first step is to clone the project repository to a local directory on your computer. To clone the repository, run the following commands:
 <pre>
-  git clone https://github.com/philipstubbs13/burger.git
+  git clone https://github.com/RafaelDe-Leon/Burger.git
   cd burger
 </pre>
 
@@ -135,7 +134,6 @@ MYSQL_PASSWORD='<i>mysql_password</i>'
 <pre>
 node server.js
 </pre>
-<img src="readme_images/start_server.png">
 <p>To verify that the server has started and the application is working locally on your computer, open Chrome and go to <a href="http://localhost:8080">http://localhost:8080</a>.</p>
 
 ## <a name="screenshots"></a> Screenshots
