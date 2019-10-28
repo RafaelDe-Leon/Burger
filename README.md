@@ -1,4 +1,4 @@
-# Burger# Burger Central
+# Burger Central
 <p>A full stack application that allows you to create a Burger and devour it and throw it away, using Routes and MySql to update the database</p>
 <img src="./public/assets/img/Example1.jpg">
 
